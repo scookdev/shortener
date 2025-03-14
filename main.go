@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"urlshortener/shortener"
 )
 
 func main() {
@@ -14,7 +15,7 @@ func main() {
 		return
 	}
 
-	shortened, err := ShortenURL(*url)
+	shortened, err := shortener.ShortenURL(*url)
 	if err != nil {
 		fmt.Println("Error:", err)
 		return

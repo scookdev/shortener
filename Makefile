@@ -1,4 +1,4 @@
-BINARY_NAME = shortener
+BINARY_NAME = urlshortener
 
 build:
 	@echo "🔨 Building the binary..."
@@ -7,7 +7,7 @@ build:
 
 run: build
 	@echo "🚀 Running the CLI..."
-	./$(BINARY_NAME) --url https://google.com
+	./$(BINARY_NAME) --url https://equitas.cc
 
 clean:
 	@echo "🧹 Cleaning up..."

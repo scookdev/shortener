@@ -21,7 +21,7 @@ To build the executable:
 make build
 ```
 
-This creates a `shortener` binary.
+This creates a `urlshortener` binary.
 
 ---
 
@@ -30,7 +30,7 @@ This creates a `shortener` binary.
 ### 🔗 **Shorten a URL**
 
 ```sh
-./shortener --url https://equitas.cc
+./urlshortener --url https://equitas.cc
 ```
 
 Alternatively, if you haven't built it yet:
